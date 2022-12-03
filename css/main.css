@@ -94,8 +94,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 80px;
-    padding-bottom: 80px;
     background-color: #252420;
     color: #fff;
 
@@ -121,7 +119,6 @@ body {
     letter-spacing: 0.5px;
 }
 
-
 .hero-img {
     border-radius: 8px;
     width: 510px;
@@ -138,13 +135,18 @@ body {
 
 .feauture-heading {
     font-family: "Robot Condensed", "Robot", "Arial", sans-serif;
-    width: 440px;
     font-size: 72px;
     line-height: 1.2;
     letter-spacing: 0.5px;
     color: #000;
 }
 
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
 
 .feature {
     width: 340px;
@@ -161,26 +163,11 @@ body {
 
 }
 
-.features-list {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-}
-
-.feature {
-    width: 340px;
-}
-
 .feature-title {
     font-family: "Robot Condensed", "Robot", "Arial", sans-serif;
     font-style: 24px;
     line-height: 1.2;
 }
-
-/* .feature-info {
-    color: #000;
-} */
 
 /* PROMO SECTION  */
 .promo {
@@ -193,8 +180,6 @@ body {
 }
 
 .promo-content {
-    padding-top: 64px;
-    padding-bottom: 64px;
     width: 440px;
 }
 
@@ -202,10 +187,10 @@ body {
     font-family: "Robot Condensed", "Robot", "Arial", sans-serif;
     font-size: 40px;
     line-height: 1.2;
+    letter-spacing: 0.5px;
 }
 
 .promo-highlight {
-    /* font-weight: 700; */
     color: #ff7500;
 }
 
